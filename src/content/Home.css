@@ -8,3 +8,42 @@
 .home {
     margin-left: 1vw;
 }
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic * {
+ font-family: 'Nanum Gothic', sans-serif;
+}
+
+a {
+    font-family: 'Cafe24Ssurround';
+    
+}
+.h2{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.photo{
+    width: 20%;
+}
+  
+.text_blink {
+    animation: blink  infinite;
+    font-size: 2.5rem;
+  }
+  
+  @keyframes blink {
+    50% {
+      visibility: hidden;
+    }
+   
+  }
+  
+  
+  .no-blink {
+    visibility: visible !important;
+  }

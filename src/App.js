@@ -8,7 +8,7 @@ import MyProject from "./content/Project"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
      <BrowserRouter>
       <Navbar className="navbar" />
       <Routes>
